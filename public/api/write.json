@@ -1,0 +1,54 @@
+{
+    "bgimgs":[
+        "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=368211293,1627848683&fm=26&gp=0.jpg",
+        "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=394698104,1302019637&fm=26&gp=0.jpg",
+        "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3317907493,3993257530&fm=26&gp=0.jpg"
+    ],
+    "dynamics":[
+        {
+            "id":0,
+            "headerImg":"https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2026729911,4250545773&fm=26&gp=0.jpg",
+            "time":"2021年04月09日 11:59",
+            "content":"穿起来好可以，质量也还行，颜色要浅一些，客服说是新款，服务很好，还是不错的，可以购买。",
+            "imgs":["https://img.alicdn.com/bao/uploaded/i3/O1CN01pVITkX1Y5FdQDeypT_!!0-rate.jpg_400x400.jpg",
+                "https://img.alicdn.com/bao/uploaded/i4/O1CN01Zf6wQM1Y5FdQDfFSb_!!0-rate.jpg_400x400.jpg",
+                "https://img.alicdn.com/bao/uploaded/i2/O1CN01H4EK4x1Y5FdXTIuEF_!!0-rate.jpg_400x400.jpg"],
+            "scan":99,
+            "good":10,
+            "comment":6,
+            "buy":3,
+            "buy_link":"https://item.taobao.com/item.htm?spm=a230r.1.14.174.47b072aaIcKONW&id=637584143702&ns=1&abbucket=9#detail",
+            "price":5.99
+        },
+        {
+            "id":1,
+            "headerImg":"https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2026729911,4250545773&fm=26&gp=0.jpg",
+            "time":"2021年03月27日 14:40",
+            "content":"面料挺厚实的，穿起来也显白，宽松的版型，胖瘦都能驾驭，外面是防水的布料不错，而且防风保暖",
+            "imgs":["https://img.alicdn.com/imgextra/i3/0/O1CN01wb1Rwf1DAeMpE4muP_!!0-rate.jpg_400x400.jpg",
+                "https://img.alicdn.com/imgextra/i4/0/O1CN01KF1ch31YMegJ2mmU0_!!0-rate.jpg_400x400.jpg",
+                "https://img.alicdn.com/imgextra/i2/0/O1CN016NRlEb1z0CtQMSQdc_!!0-rate.jpg_400x400.jpg"],
+            "scan":105,
+            "good":16,
+            "comment":26,
+            "buy":9,
+            "buy_link":"https://item.taobao.com/item.htm?spm=a230r.1.14.174.47b072aaIcKONW&id=637584143702&ns=1&abbucket=9#detail",
+            "price":7.58
+        },
+        {
+            "id":2,
+            "headerImg":"https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2026729911,4250545773&fm=26&gp=0.jpg",
+            "time":"2021年02月07日 11:07",
+            "content":"绝了这衣服 很厚实，加卫衣穿就很暖，都有点热了，衣服也挺软，不会压肩膀之类的，我这是原相机拍的，就是买家颜色，比图上的深，就发货比较慢",
+            "imgs":["https://img.alicdn.com/bao/uploaded/i4/O1CN010Xb5Gu1U8DhnlxQ5Z_!!0-rate.jpg_400x400.jpg",
+                "https://img.alicdn.com/bao/uploaded/i2/O1CN01Epokmt1Wlj6BAUIFn_!!0-rate.jpg_400x400.jpg",
+                "https://img.alicdn.com/bao/uploaded/i4/O1CN01AMm5ve1ZvkcEwfKTo_!!0-rate.jpg_400x400.jpg"],
+            "scan":75,
+            "good":11,
+            "comment":16,
+            "buy":6,
+            "buy_link":"https://item.taobao.com/item.htm?spm=a230r.1.14.174.47b072aaIcKONW&id=637584143702&ns=1&abbucket=9#detail",
+            "price":9.99
+        }
+    ]
+}

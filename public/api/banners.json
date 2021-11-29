@@ -1,0 +1,16 @@
+{
+    "banners":[
+        {
+            "id":0,
+            "src":"https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=229065980,2895464780&fm=26&gp=0.jpg"
+        },
+        {
+            "id":1,
+            "src":"https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1241398578,3606554541&fm=26&gp=0.jpg"
+        },
+        {
+            "id":2,
+            "src":"https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1687635299,2087289779&fm=26&gp=0.jpg"
+        }
+    ]
+}

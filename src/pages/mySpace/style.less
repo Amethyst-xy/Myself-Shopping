@@ -1,0 +1,144 @@
+@charset "UTF-8";
+@import '../../variebles.less';
+
+.header_nav1{
+    width: 100%;
+    height: unit((80/@baseFont),rem);
+    background:blueviolet;
+    padding: 0 unit((30/@baseFont),rem);
+    overflow:hidden;
+
+    .logo1{
+        float:left;
+        font:900 unit((60/@baseFont),rem)/unit((80/@baseFont),rem) \534e\6587\884c\6977;
+        color:#fff;
+        text-shadow:unit((1/@baseFont),rem) unit((1/@baseFont),rem) unit((1/@baseFont),rem) #000;
+        margin-right: unit((20/@baseFont),rem);
+    }
+    li{
+        padding: 0 unit((20/@baseFont),rem);
+        list-style:none;
+        float:left;
+        color:#fff;
+        font:700 unit((17/@baseFont),rem)/unit((80/@baseFont),rem) microsoft YaHei;
+    }
+
+    .searchBar{
+        position:relative;
+        width: unit((350/@baseFont),rem);
+        height: 100%;
+        float:right;
+
+        .iconfont{
+            position:absolute;
+            right: unit((6/@baseFont),rem);
+            top: unit((25/@baseFont),rem);
+            font-size:unit((28/@baseFont),rem);
+            color:blueviolet;
+
+            &:hover{
+                cursor:pointer;
+            }
+        }
+
+        input{
+            width: 100%;
+            height: unit((36/@baseFont),rem);
+            border: none;
+            border: unit((1/@baseFont),rem) solid lightskyblue;
+            border-radius: unit((35/@baseFont),rem);
+            outline:none;
+            padding: 0 unit((20/@baseFont),rem);
+            font-size:unit((13/@baseFont),rem);
+            box-sizing:border-box;
+            margin-top: unit((22/@baseFont),rem);
+            color:blueviolet;
+        }
+    }
+}
+
+.content_wrapper1{
+    width: 100%;
+    position:absolute;
+    background:#f3f3f3;
+    padding-bottom:unit((30/@baseFont),rem);
+    top: unit((110/@baseFont),rem);
+    left: 0;
+    right: 0;
+}
+
+.content_area1{
+    width: unit((1220/@baseFont),rem);
+    margin:0 auto;
+    overflow:hidden;
+
+    .content_left1{
+        float:left;
+    }
+
+    .home{
+        font:normal unit((14/@baseFont),rem)/unit((50/@baseFont),rem) \534e\6587\4e2d\5b8b;
+        color:#666;
+
+        >span:hover{
+            color:blueviolet;
+            text-decoration:underline;
+        } 
+    }
+}
+
+.content_left1{
+    width: unit((200/@baseFont),rem);
+    background:#fff;
+    border-radius: unit((10/@baseFont),rem);
+    padding: unit((10/@baseFont),rem) 0;
+    box-sizing:border-box;
+
+    p{
+        font:normal unit((14/@baseFont),rem)/unit((60/@baseFont),rem) simSun;
+        color:#666;
+
+        >span:hover{
+            color:blueviolet;
+            text-decoration:underline;
+        }
+    }
+
+    .title{
+        font-family:arial microsoft YaHei;
+        font-size:unit((18/@baseFont),rem);
+        line-height: unit((50/@baseFont),rem);
+        color:blueviolet;
+        text-align:center;
+        border-bottom:unit((1/@baseFont),rem) solid #eee;
+    }
+
+    li{
+        list-style:none;
+        padding: unit((10/@baseFont),rem) unit((20/@baseFont),rem);
+        border-bottom:unit((1/@baseFont),rem) solid #eee;
+
+        p{
+            font-family:arial,"微软雅黑";
+            line-height: unit((40/@baseFont),rem);
+
+            &.mtitle{
+                font:700 unit((15/@baseFont),rem)/unit((35/@baseFont),rem) microsoft YaHei;
+                color:#444;
+            }
+            &:hover{
+                cursor:pointer;
+                color:blueviolet;
+            }
+        }
+        :last-child{
+            border: none;
+        }
+    }
+}
+
+.tools_wrapper1{
+    overflow:hidden;
+    margin-top: unit((20/@baseFont),rem);
+}
+

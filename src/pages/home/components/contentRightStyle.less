@@ -1,0 +1,192 @@
+@charset "UTF-8";
+@import '../../../variebles.less';
+
+@liveUrl1:'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1680130886,1116201100&fm=26&gp=0.jpg';
+@liveUrl2:'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3467164758,3937191331&fm=26&gp=0.jpg';
+
+.contentright{
+    width: unit((340/@baseFont),rem);
+    float:right;
+
+    .adver{
+        display:block;
+        width: 100%;
+        height: unit((200/@baseFont),rem);
+        margin: unit((30/@baseFont),rem) 0;
+        &:hover{
+            cursor:pointer;
+            box-shadow:unit((-2/@baseFont),rem) unit((-3/@baseFont),rem) unit((6/@baseFont),rem) #000;
+            transition:all 0.1s ease-out;
+            transform:translateY(unit((-5/@baseFont),rem));
+        }
+
+        img{
+            display:block;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.sellinglist{
+    width: 100%;
+    padding: unit((7/@baseFont),rem) unit((15/@baseFont),rem);
+    box-sizing:border-box;
+    background:#fff;
+    margin-bottom: unit((106/@baseFont),rem);
+
+    li{
+        list-style:none;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+        width: 100%;
+        height: unit((45/@baseFont),rem);
+
+        a{
+
+            display:block;
+            text-decoration:none;
+            font-size: unit((16/@baseFont),rem);
+            font-weight:800;
+            color:#999;
+            line-height: unit((45/@baseFont),rem);
+            overflow:hidden;
+            font-family:华文中宋;
+
+            &.first{
+                color:#e1251b;
+            }
+            &.second{
+                color:#ff8000;
+            }
+            &.third{
+                color:#ffe000;
+            }
+
+            i{
+                margin-right: unit((5/@baseFont),rem);
+                line-height: unit((16/@baseFont),rem);
+                text-align:center;
+                &.right_icon{
+                    float:right;
+                    line-height: unit((45/@baseFont),rem);
+                }
+                &.listitem{
+                    display:inline-block;
+                    width: unit((16/@baseFont),rem);
+                    height: unit((16/@baseFont),rem);
+                    background:#999;
+                    color:#fff;
+                    border-radius: unit((2/@baseFont),rem);
+                }
+            }
+
+            &:hover{
+                color:blueviolet;
+            }
+        }
+    }
+}
+
+#hotlive{
+    width: 100%;
+    height: unit((200/@baseFont),rem);
+    position:relative;
+    margin-top: unit((15/@baseFont),rem);
+
+    &.live1{
+        background:url(@liveUrl1) no-repeat;
+        background-size:cover;
+    }
+    &.live2{
+        background:url(@liveUrl2) no-repeat;
+        background-size:cover;
+    }
+    
+    &:hover{
+        width: 110%;
+        cursor:pointer;
+        box-shadow:unit((2/@baseFont),rem) unit((3/@baseFont),rem) unit((10/@baseFont),rem) #000;
+        transition:all 0.1s ease-out;
+        transform:translateY(unit((-5/@baseFont),rem));
+    }
+}
+
+.livecontent{
+    width: 100%;
+    height: unit((100/@baseFont),rem);
+    position:absolute;
+    left: 0;
+    bottom: unit((30/@baseFont),rem);
+
+    p{
+        padding-left: unit((10/@baseFont),rem);
+        line-height: unit((25/@baseFont),rem);
+        color:#fff;
+    }
+    .desc{
+        font-size: unit((13/@baseFont),rem);
+        margin-top: unit((8/@baseFont),rem);
+        .now{
+            background:#e1251b;
+            padding: unit((1/@baseFont),rem) unit((2/@baseFont),rem);
+            border-radius: unit((1/@baseFont),rem);
+            margin-right: unit((4/@baseFont),rem);
+        }
+    }
+    .info{
+        font-size: unit((14/@baseFont),rem);
+        line-height: unit((40/@baseFont),rem);
+        overflow:hidden;
+
+        img{
+            display:block;
+            float:left;
+            width: unit((30/@baseFont),rem);
+            height: unit((30/@baseFont),rem);
+            border-radius: 50%;
+            margin: unit((8/@baseFont),rem) unit((10/@baseFont),rem) unit((10/@baseFont),rem) 0;
+        }
+        .star{
+            width: unit((24/@baseFont),rem);
+            height: unit((24/@baseFont),rem);
+            background:#e1251b;
+            text-align:center;
+            line-height: unit((24/@baseFont),rem);
+            border-radius: 50%;
+            position:absolute;
+            left: unit((300/@baseFont),rem);
+            margin-top: unit((8/@baseFont),rem);
+        }
+    }
+}
+
+.toolsbox{
+    width: unit((200/@baseFont),rem);
+    height: unit((60/@baseFont),rem);
+    margin: unit((35/@baseFont),rem) auto;
+    overflow:hidden;
+    background:#fff;
+    padding: unit((10/@baseFont),rem);
+    box-sizing:border-box;
+    box-shadow:unit((2/@baseFont),rem) unit((3/@baseFont),rem) unit((6/@baseFont),rem) #eee;
+
+    a{
+        display:block;
+        text-decoration:none;
+        text-align:center;
+        width: 33.33%;
+        height: 100%;
+        float:left;
+        font:normal unit((12/@baseFont),rem)/unit((20/@baseFont),rem) simSun;
+        color:#999;
+        .iconfont{
+            font-size: unit((30/@baseFont),rem);
+            &.smaller{
+                font-size: unit((22/@baseFont),rem);
+            }
+        }
+
+        &:hover{
+            color:blueviolet;
+        }
+    }
+}

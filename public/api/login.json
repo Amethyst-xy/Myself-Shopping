@@ -1,0 +1,10 @@
+{
+    "login":{
+        "success":true,
+        "status":true
+    },
+    "register":{
+        "success":true,
+        "status":true
+    }
+}

@@ -1,0 +1,9 @@
+export const SELECT_LIST_DATA='select_list_data';
+export const HANDLE_FOCUS='handle_focus';
+export const HANDLE_MOUSE_IN='handle_mouse_in';
+export const CHANGE_INDEX='change_index';
+export const SET_TIMER='set_timer';
+export const GET_BANNER_DATA='get_banner_data';
+export const GET_CONTENT_DATA='get_content_data';
+export const GET_BRAND='get_brand';
+export const POST_SELECT_INFO='post_select_info';

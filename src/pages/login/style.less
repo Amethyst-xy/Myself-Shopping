@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@backgroundUrl:'../../static/bg1.jpg';
+@import '../../variebles.less';
+
+.login_wrapper{
+    width: 100%;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background:url(@backgroundUrl);
+    background-size:100% 100%;
+}
+
+.welcome_title{
+    width: 100%;
+    height: unit((100/@baseFont),rem);
+    font:700 unit((30/@baseFont),rem)/unit((100/@baseFont),rem) \534e\6587\884c\6977;
+    text-align:center;
+    color:#fff;
+    border-bottom:unit((1/@baseFont),rem) solid #333;
+    text-shadow:unit((1/@baseFont),rem) unit((2/@baseFont),rem) unit((3/@baseFont),rem) lightskyblue;
+
+    span{
+        font-size:unit((50/@baseFont),rem);
+    }
+}
+
+.login_box{
+    width: unit((400/@baseFont),rem);
+    height: unit((260/@baseFont),rem);
+    background:rgba(255,255,255,0.7);
+    box-shadow:0 0 unit((10/@baseFont),rem) lightskyblue;
+    margin: 0 auto;
+    position:absolute;
+    top:40%;
+    left:50%;
+    margin-left:unit((-200/@baseFont),rem);
+    margin-top:unit((-50/@baseFont),rem);
+    text-align:center;
+    padding: unit((30/@baseFont),rem) unit((60/@baseFont),rem);
+    box-sizing:border-box;
+}

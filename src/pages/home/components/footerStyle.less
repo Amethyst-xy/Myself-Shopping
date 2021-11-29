@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@import '../../../variebles.less';
+
+.footwrapper{
+    width:100%;
+    height: unit((230/@baseFont),rem);
+    background:#efefef;
+    margin-top: unit((-10/@baseFont),rem);
+    border-top: unit((1/@baseFont),rem) solid #ddd;
+}
+
+.footerbox{
+    width:unit((1200/@baseFont),rem);
+    height: unit((130/@baseFont),rem);
+    margin:0 auto;
+    padding: unit((10/@baseFont),rem);
+    box-sizing:border-box;
+    overflow:hidden;
+    
+    h2{
+        height: unit((130/@baseFont),rem);
+        width:unit((200/@baseFont),rem);
+        float:left;
+        font:700 unit((30/@baseFont),rem)/unit((30/@baseFont),rem) Arial Black;
+        text-align:right;
+        padding-top: unit((20/@baseFont),rem);
+        box-sizing:border-box;
+        color:#888;
+        text-shadow:unit((1/@baseFont),rem) unit((1/@baseFont),rem) unit((2/@baseFont),rem) #000;
+    }
+}
+
+.footertable{
+    width:unit((980/@baseFont),rem);
+    height: 100%;
+    float:right;
+    text-align:center;
+    color:#999;
+    
+    tr{
+        height: unit((25/@baseFont),rem);
+    }
+
+    th{
+        width:unit((245/@baseFont),rem);
+        font:700 unit((15/@baseFont),rem)/unit((25/@baseFont),rem) microsoft YaHei;
+        color:#666;
+        &:hover{
+            cursor:pointer;
+            color:blueviolet;
+        }
+    }
+    td{
+        width:unit((245/@baseFont),rem);
+        font:normal unit((13/@baseFont),rem)/unit((25/@baseFont),rem) microsoft YaHei;
+        &:hover{
+            cursor:pointer;
+            color:blueviolet;
+        }
+    }
+}
+
+.footerbottom{
+    width:100%;
+    height: unit((100/@baseFont),rem);
+
+    p{
+        font:normal unit((12/@baseFont),rem)/unit((25/@baseFont),rem) microsoft YaHei;
+        text-align:center;
+        color:#999;
+    }
+}

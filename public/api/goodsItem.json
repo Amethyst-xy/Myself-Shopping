@@ -1,0 +1,91 @@
+{
+    "goodsInfo":[
+        {
+            "id":0,
+            "saler":"Lanlan",
+            "discount":"3.24-3.26每满300减10，不可跨店",
+            "headUrl":"https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2026729911,4250545773&fm=26&gp=0.jpg",
+            "imgUrl":"https://img.alicdn.com/bao/uploaded/i1/2121026031/O1CN01yxa4kD1uQFKWoMIp3_!!2121026031.jpg_80x80.jpg",
+            "img2":"https://img.alicdn.com/imgextra/i2/2121026031/O1CN018b5qeJ1uQFKN4C5gU_!!2121026031.jpg_60x60q90.jpg",
+            "img3":"https://img.alicdn.com/imgextra/i2/2121026031/O1CN01aRrJpy1uQFKOvG4BV_!!2121026031.jpg_60x60q90.jpg",
+            "showimgs":[
+                "https://gd3.alicdn.com/imgextra/i2/1858395601/O1CN01VqvXGw1rFIzQs14XY_!!1858395601.jpg",
+                "https://gd3.alicdn.com/imgextra/i3/1858395601/O1CN010fDmJP1rFJ2J6vVf2_!!0-item_pic.jpg",
+                "https://gd2.alicdn.com/imgextra/i2/1858395601/O1CN015KDsOM1rFJ0peQHR5_!!1858395601.jpg"
+            ],
+            "desc":"【风尚价】海南旅拍仙女裙",
+            "color":"白色",
+            "size":"M",
+            "height":155,
+            "weight":43,
+            "one":70,
+            "two":55,
+            "three":73,
+            "preprice":"12.00",
+            "nowprice":"12.99",
+            "up_down":"卖家涨价",
+            "choosed":false,
+            "time":"2021年04月06日 10:11",
+            "description":"挺好看的，蛮显瘦的，很少女，很春天的感觉 整体评价：非常棒 面料材质：裙子很有垂坠感，不皱巴 版型风格：宫廷风，少女风 搭配建议：小皮鞋",
+            "buy_link":"https://www.taobao.com/"
+        },
+        {
+            "id":1,
+            "saler":"puppy",
+            "discount":"3.24-3.26每满100减5",
+            "headUrl":"https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2026729911,4250545773&fm=26&gp=0.jpg",
+            "imgUrl":"https://img.alicdn.com/bao/uploaded/i1/33580609/O1CN01AKOx071GMxl4AJFRD_!!33580609.jpg_80x80.jpg",
+            "img2":"https://gd2.alicdn.com/imgextra/i2/33580609/O1CN01U9VNel1GMxl65eshs_!!33580609.jpg_50x50.jpg_.webp",
+            "img3":"https://gd1.alicdn.com/imgextra/i1/33580609/O1CN01sLEzq41GMxl65ft1h_!!33580609.jpg_50x50.jpg_.webp",
+            "showimgs":[
+                "https://gd1.alicdn.com/imgextra/i1/55922241/O1CN01XWSNba1SQQEfS7pcV_!!55922241.jpg",
+                "https://gd1.alicdn.com/imgextra/i1/55922241/O1CN01NoD7Ts1SQQD9QXuml_!!55922241.jpg",
+                "https://gd2.alicdn.com/imgextra/i2/55922241/O1CN01HBo1dT1SQQ94aIB1N_!!55922241.jpg"
+            ],
+            "desc":"2021春款半身裙女夏白色A字裙高腰春秋季裙子中长款蛋糕薄款长裙",
+            "color":"白色",
+            "size":"M",
+            "height":167,
+            "weight":47,
+            "one":80,
+            "two":55,
+            "three":80,
+            "preprice":"9.99",
+            "nowprice":"7.99",
+            "up_down":"卖家降价",
+            "choosed":false,
+            "time":"2021年04月06日 10:11",
+            "description":"挺好看的，蛮显瘦的，很少女，很春天的感觉 整体评价：非常棒 面料材质：裙子很有垂坠感，不皱巴 版型风格：宫廷风，少女风 搭配建议：小皮鞋",
+            "buy_link":"https://www.taobao.com/"
+        },
+        {
+            "id":2,
+            "saler":"Amethyst紫宣",
+            "discount":"3.24-3.26每满200减20,可跨店",
+            "imgUrl":"https://img.alicdn.com/bao/uploaded/i2/O1CN01h7nPxZ2CjAiaBYyJE_!!0-rate.jpg_400x400.jpg",
+            "img2":"https://img.alicdn.com/bao/uploaded/i3/O1CN01ezvckb2CjAiVRig7j_!!0-rate.jpg_400x400.jpg",
+            "img3":"https://img.alicdn.com/bao/uploaded/i2/O1CN01h7nPxZ2CjAiaBYyJE_!!0-rate.jpg_400x400.jpg",
+            "headUrl":"https://dss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3155998395,3600507640&fm=26&gp=0.jpg",
+            "showimgs":[
+                "https://img.alicdn.com/imgextra/i3/2260331774/O1CN01covweL1OyXD8LjiqE_!!2260331774-0-lubanu-s.jpg_430x430q90.jpg",
+                "https://img.alicdn.com/imgextra/i3/2260331774/O1CN01l4Tb9R1OyXDBTSgV4_!!2260331774-0-lubanu-s.jpg_430x430q90.jpg",
+                "https://img.alicdn.com/imgextra/i2/2260331774/O1CN01sKBhiV1OyXDCv96WP_!!2260331774-0-lubanu-s.jpg_430x430q90.jpg"
+            ],
+            "desc":"宴会高端晚礼服裙子女气质高贵仙女名媛平时可穿性感连衣裙中长款",
+            "color":"蓝白色",
+            "size":"M",
+            "height":167,
+            "weight":47,
+            "one":80,
+            "two":55,
+            "three":80,
+            "preprice":"13.00",
+            "nowprice":"15.99",
+            "up_down":"卖家涨价",
+            "choosed":false,
+            "time":"2021年04月06日 10:11",
+            "description":"挺好看的，蛮显瘦的，很少女，很春天的感觉 整体评价：非常棒 面料材质：裙子很有垂坠感，不皱巴 版型风格：宫廷风，少女风 搭配建议：小皮鞋",
+            "buy_link":"https://www.taobao.com/"
+        }
+    ]
+}

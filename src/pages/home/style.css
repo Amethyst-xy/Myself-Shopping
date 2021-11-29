@@ -1,0 +1,13 @@
+
+.selectform{
+    width:400px;
+    padding:20px;
+    background:blueviolet;
+    color:#fff;
+    margin:0 auto;
+    padding:20px;
+}
+
+.selectform input{
+    margin:20px;
+}

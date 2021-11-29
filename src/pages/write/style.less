@@ -1,0 +1,244 @@
+@charset "UTF-8";
+@import '../../variebles.less';
+
+.header_wrapper_d{
+    position:relative;
+    width: 100%;
+    height: unit((210/@baseFont),rem);
+    padding:unit((20/@baseFont),rem);
+    box-sizing:border-box;
+
+    .header_con{
+        width: 100%;
+        height: 100%;
+        position:absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .carousel{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: lightblue;
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .home{
+        color:#fff;
+        font:700 unit((16/@baseFont),rem)/unit((20/@baseFont),rem) simSun;
+
+        &:hover{
+            cursor:pointer;
+            color:lightskyblue;
+        }
+    }
+    h1{
+        font-size: unit((26/@baseFont),rem);
+        color:#fff;
+        line-height: unit((50/@baseFont),rem);
+        text-shadow:unit((1/@baseFont),rem) unit((1/@baseFont),rem) unit((1/@baseFont),rem) #000;
+        margin:unit((10/@baseFont),rem);
+    }   
+    
+    .header{
+        position:absolute;
+        bottom: unit((-40/@baseFont),rem);
+        left: unit((120/@baseFont),rem);
+        width: unit((330/@baseFont),rem);
+        height: unit((150/@baseFont),rem);
+
+        img{
+            display:block;
+            float:left;
+            width: unit((140/@baseFont),rem);
+            height: unit((140/@baseFont),rem);
+            padding:0;
+            background:#eee;
+            padding:unit((5/@baseFont),rem);
+            border-radius: unit((4/@baseFont),rem);
+            border: unit((1/@baseFont),rem) solid #ddd;
+            box-sizing:border-box;
+        }
+        p{
+            font:700 unit((22/@baseFont),rem)/unit((120/@baseFont),rem) microsoft YaHei;
+            color:#fff;
+            float:right;
+            margin-right: unit((25/@baseFont),rem);
+        }
+    }
+}
+
+.content_wrapper_d{
+    width: 100%;
+    padding-bottom: unit((50/@baseFont),rem);
+}
+
+.content_d{
+    width: unit((1100/@baseFont),rem);
+    margin:0 auto;
+    height: unit((132/@baseFont),rem);
+}
+
+.input_area_d{
+    float:left;
+    width: unit((800/@baseFont),rem);
+    height: unit((134/@baseFont),rem);
+    background:rgba(256,256,256,0.9);
+    border: unit((1/@baseFont),rem) solid #ddd;
+    position:relative;
+
+    textarea{
+        background:rgba(256,256,256,0.1);
+    }
+
+    .link_area{
+        width: unit((567/@baseFont),rem);
+        position:absolute;
+        bottom: 0;
+        left: unit((-1/@baseFont),rem);
+        padding:unit((5/@baseFont),rem);
+        height: unit((45/@baseFont),rem);
+        overflow:auto;
+        
+        p{
+            width: 100%;
+            font:normal unit((12/@baseFont),rem)/unit((18/@baseFont),rem) simSun;
+            color:#999;
+        }
+        .iconfont{
+            font-size: unit((12/@baseFont),rem);
+
+            &:hover{
+                cursor:pointer;
+            }
+        }
+    }
+    textarea{
+        border: none;
+        border-right: unit((1/@baseFont),rem) solid #eee;
+        outline:none;
+        padding:unit((10/@baseFont),rem);
+        font-size: unit((14/@baseFont),rem);
+        float:left;
+    }
+    .input_right{
+        width: unit((232/@baseFont),rem);
+        height: 100%;
+        float:right;
+        padding:unit((15/@baseFont),rem) unit((10/@baseFont),rem);
+        box-sizing:border-box;
+
+        .addition{
+            overflow:hidden;
+
+            .iconfont{
+                width: unit((53/@baseFont),rem);
+                height: unit((50/@baseFont),rem);
+                float:left; 
+                font-size: unit((40/@baseFont),rem);
+                line-height: unit((50/@baseFont),rem);  
+                text-align:center;
+                color:#888;
+                border-right: unit((1/@baseFont),rem) solid #eee;
+
+                &:last-child{
+                    border: none;
+                }
+                &:hover{
+                    cursor:pointer;
+                    color:blueviolet;
+                }
+                &.icon_1{
+                    font-size:unit((33/@baseFont),rem); 
+                }
+                &.icon_2{
+                    font-size:unit((38/@baseFont),rem); 
+                }
+            }
+        }
+        .put_out{
+            overflow:hidden;
+            font:normal unit((14/@baseFont),rem)/unit((30/@baseFont),rem) microsoft YaHei;
+            margin-top: unit((10/@baseFont),rem);
+            padding-left: unit((60/@baseFont),rem);
+            color:#888;
+            
+            button{
+                height: unit((30/@baseFont),rem);
+                line-height: unit((10/@baseFont),rem);
+                float:right;
+                border: none;
+                background:blueviolet;
+                color:#fff;
+                outline:none;
+                border-radius: unit((3/@baseFont),rem);
+                padding:unit((10/@baseFont),rem) unit((15/@baseFont),rem);
+                margin-right: unit((8/@baseFont),rem);
+
+                &:hover{
+                    border: unit((1/@baseFont),rem) solid blueviolet;
+                }
+            }
+        }
+    }
+}
+
+.content_nav_d{
+    width: 100%;
+    height: unit((60/@baseFont),rem);
+    padding:0 unit((300/@baseFont),rem);
+    margin-bottom: unit((20/@baseFont),rem);
+    position: relative;
+
+    li,a{
+        list-style:none;
+        float:left;
+        padding:0 unit((20/@baseFont),rem);
+        font:normal unit((14/@baseFont),rem)/unit((60/@baseFont),rem) microsoft YaHei;
+        color:#fff;
+
+        &:hover{
+            color:blueviolet;
+            text-decoration:underline;
+        }
+    }
+}
+
+.more_info_d{
+    width: unit((282/@baseFont),rem);
+    height: unit((132/@baseFont),rem);
+    background:rgba(256,256,256,0.9);
+    border: unit((1/@baseFont),rem) solid #ddd;
+    float:right;
+    overflow:hidden;
+    padding:unit((20/@baseFont),rem);
+    box-sizing:border-box;
+
+    div{
+        width: unit((80/@baseFont),rem);
+        height: unit((80/@baseFont),rem);
+        float:left;
+        text-align:center;
+        font:normal unit((14/@baseFont),rem)/unit((40/@baseFont),rem) microsoft YaHei; 
+
+        p{
+            &:last-child{
+                font:700 unit((20/@baseFont),rem)/unit((40/@baseFont),rem) microsoft YaHei;
+                color:blueviolet;
+            }
+        }
+    }
+}
+
+.dynamic_wrapper{
+    width: unit((1100/@baseFont),rem);
+    background:rgba(256,256,256,0.9);
+    margin:0 auto;
+    margin-top: unit((20/@baseFont),rem);
+    border: unit((1/@baseFont),rem) solid #ddd;
+}

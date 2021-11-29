@@ -1,0 +1,182 @@
+@charset "UTF-8";
+@import '../../../variebles.less';
+
+.contentwrapper{
+    width:100%;
+    background:#f5f5f5;
+    padding: unit((20/@baseFont),rem) unit((10/@baseFont),rem);
+    box-sizing:border-box;
+}
+
+.contentarea{
+    width:unit((1220/@baseFont),rem);
+    margin: 0 auto;
+    overflow:hidden;
+}
+
+.contentleft{
+    width:unit((880/@baseFont),rem);
+    height:100%;
+    padding: unit((5/@baseFont),rem) unit((10/@baseFont),rem);
+    box-sizing:border-box;
+    float:left;
+}
+
+.hotwrapper{
+    width:100%;
+    height:100%;
+    background:#f5f5f5;
+    padding: unit((5/@baseFont),rem) 0;
+    box-sizing:border-box;
+    overflow:hidden;
+    margin-bottom:unit((50/@baseFont),rem);
+}
+
+.titleitem{
+    width:100%;
+    height:unit((25/@baseFont),rem);
+    font:400 unit((22/@baseFont),rem)/unit((21/@baseFont),rem) microsoft YaHei;
+    color:lightskyblue;
+    margin: unit((20/@baseFont),rem) 0 unit((10/@baseFont),rem) 0;
+    padding-left: unit((10/@baseFont),rem);
+    text-shadow:unit((1/@baseFont),rem) unit((1/@baseFont),rem) unit((1/@baseFont),rem) #000;
+    border-left: unit((8/@baseFont),rem) solid #4e6ef2
+}
+
+.hotitem{
+    width:unit((205/@baseFont),rem);
+    height:unit((295/@baseFont),rem);
+    float:left;
+    margin: unit((5/@baseFont),rem);
+    background:#fff;
+    padding: unit((10/@baseFont),rem);
+    box-sizing:border-box;
+    
+    img{
+        width:100%;
+        height:unit((210/@baseFont),rem);
+    }
+    
+    p{
+        text-align:center;
+    }
+    .title{
+        font:700 unit((13/@baseFont),rem)/unit((15/@baseFont),rem) simSun;
+        padding: unit((10/@baseFont),rem) unit((10/@baseFont),rem) unit((5/@baseFont),rem) unit((10/@baseFont),rem);
+    }
+    .price{
+        font:900 unit((18/@baseFont),rem)/unit((20/@baseFont),rem) simSun;
+        color:#d0021b;
+    }
+
+    &:hover{
+        cursor:pointer;
+        box-shadow:unit((2/@baseFont),rem) unit((3/@baseFont),rem) unit((10/@baseFont),rem) lightskyblue;
+        transition:all 0.1s ease-out;
+        transform:translateY(unit((-5/@baseFont),rem));
+    }
+}
+
+.newswrapper{
+    width:100%;
+    padding: unit((10/@baseFont),rem) unit((6/@baseFont),rem);
+    box-sizing:border-box;
+}
+
+.newsitem{
+    display:block;
+    padding: unit((10/@baseFont),rem);
+    box-sizing:border-box;
+    background:#fff;
+    width:100%;
+    height:unit((180/@baseFont),rem);
+    overflow:hidden;
+    color:#222;
+    margin-bottom:unit((10/@baseFont),rem);
+
+    &:hover{
+        cursor:pointer;
+        box-shadow:unit((2/@baseFont),rem) unit((3/@baseFont),rem) unit((10/@baseFont),rem) lightskyblue;
+        transition:all 0.1s ease-out;
+        transform:translateY(unit((-5/@baseFont),rem));
+        color:blueviolet;
+    }
+}
+
+.newsitemleft{
+    width:unit((160/@baseFont),rem);
+    height:100%;
+    float:left;
+    padding: unit((10/@baseFont),rem);
+    box-sizing:border-box;
+    border-right: unit((1/@baseFont),rem) solid #eee;
+
+    .carousel_small{
+        display:block;
+        height:100%;
+        width:100%;
+        
+
+        img{
+            display:block;
+            width:unit((110/@baseFont),rem);
+            height:unit((140/@baseFont),rem);
+        }
+    }
+    p{
+        text-align:center;
+        font:700 unit((16/@baseFont),rem)/unit((25/@baseFont),rem) simSun;
+    }
+}
+
+.newsitemright{
+    width:unit((667/@baseFont),rem);
+    height:100%;
+    float:right;
+    padding: unit((10/@baseFont),rem);
+    box-sizing:border-box;
+    position:relative;
+
+    .comment{
+        height:unit((60/@baseFont),rem);
+        text-indent:2em;
+        font:700 unit((14/@baseFont),rem)/unit((22/@baseFont),rem) simSun;
+        margin-bottom:unit((5/@baseFont),rem);
+    }
+    .gaussian_blur{
+        display:inline-block;
+        width:unit((50/@baseFont),rem);
+        height:unit((55/@baseFont),rem);
+        margin-right: unit((2/@baseFont),rem);
+        border: unit((1/@baseFont),rem) solid #eee;
+        box-sizing:border-box;
+        background:#eee;
+    }
+    .desc{
+        font:normal unit((12/@baseFont),rem)/unit((30/@baseFont),rem) simSun;
+        color:#999;
+
+        span{
+            color:red;
+            font:700 unit((15/@baseFont),rem)/unit((30/@baseFont),rem) simSun;
+            margin-left: unit((10/@baseFont),rem);
+        }
+    }
+
+    >span{
+        position:absolute;
+        right: unit((10/@baseFont),rem);
+        bottom:unit((10/@baseFont),rem);
+        width:unit((60/@baseFont),rem);
+        height:unit((30/@baseFont),rem);
+        padding: 0 unit((5/@baseFont),rem);
+        text-align:center;
+        color:#fff;
+        font:700 unit((13/@baseFont),rem)/unit((30/@baseFont),rem) simSun;
+        background:blueviolet;
+
+        &:hover{
+            box-shadow:0 0 unit((3/@baseFont),rem) blueviolet;
+        }
+    }
+}

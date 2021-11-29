@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 20px;">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="never"/>
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <title>Myself</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <script>
+      const psdWitdh=1264;
+      const baseFont=20;
+      
+      window.addEventListener('resize',()=>{
+        const rootFontSize=baseFont/psdWitdh*document.body.clientWidth;
+        document.querySelector('html').style.fontSize=rootFontSize+'px';
+      })
+    </script>
+  </body>
+</html>

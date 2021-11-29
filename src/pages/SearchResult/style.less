@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@import '../../variebles.less';
+
+.header_box_s{
+    width: 100%;
+    height: unit((98/@baseFont),rem);
+    border-bottom:unit((1/@baseFont),rem) solid lightskyblue;
+    background:linear-gradient(to bottom,#f5f5f5,#fff);
+
+    .logo_s{
+        padding: 0 unit((20/@baseFont),rem);
+        box-sizing:border-box;
+        display:block;
+        float:left;
+        text-align:center;
+        width: unit((220/@baseFont),rem);
+        height: unit((60/@baseFont),rem);
+        font:900 unit((60/@baseFont),rem)/unit((60/@baseFont),rem) \534e\6587\884c\6977;
+        margin-top: unit((20/@baseFont),rem);
+        margin-left: unit((70/@baseFont),rem);
+        color:lightskyblue;
+        text-shadow: unit((1/@baseFont),rem) unit((1/@baseFont),rem) unit((1/@baseFont),rem) #000;
+    }
+}
+
+.options_s{
+    float:left;
+    width: unit((220/@baseFont),rem);
+    height: unit((100/@baseFont),rem);
+    list-style:none;
+    overflow:hidden;
+    margin-right: unit((40/@baseFont),rem);
+
+    li{
+        font:normal unit((14/@baseFont),rem)/unit((100/@baseFont),rem) microsoft YaHei;
+        float:left;
+        padding: 0 unit((10/@baseFont),rem);
+        box-sizing:border-box;
+        color:skyblue;
+
+        &:hover{
+            text-decoration:underline;
+            color:blueviolet;
+        }
+    }
+}
+
+.loading_s{
+    width: 100%;
+    position:absolute;
+    top: unit((128/@baseFont),rem);
+    left: 0;
+    right: 0;
+    bottom:0;
+    background:linear-gradient(to bottom,#fff,lightskyblue);
+    font:700 unit((30/@baseFont),rem)/unit((100/@baseFont),rem) microsoft YaHei;
+    color:#333;
+    padding-left: unit((20/@baseFont),rem);
+}
+
+.content_wrapper_s{
+    width: 100%;
+    top: unit((128/@baseFont),rem);
+    background:linear-gradient(to bottom,#fff,lightskyblue);
+}
+
+.content_title_s{
+    width: 100%;
+    height: unit((60/@baseFont),rem);
+    font:normal unit((25/@baseFont),rem)/unit((60/@baseFont),rem) microsoft YaHei;
+    color:lightskyblue;
+    text-shadow: unit((1/@baseFont),rem) unit((1/@baseFont),rem) unit((1/@baseFont),rem) #000;
+    padding-left: unit((20/@baseFont),rem);
+}
+
+.goods_wrapper_s{
+    width: unit((900/@baseFont),rem);
+    height: 100%;
+    margin:0 auto;
+}

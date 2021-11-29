@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@import '../../variebles.less';
+
+
+.header_wrapper{
+    height: unit((30/@baseFont),rem);
+    width:100%;
+    padding:0 unit((30/@baseFont),rem);
+    border-bottom:unit((1/@baseFont),rem) solid #eee;
+    box-sizing:border-box;
+    background:#f4f4f4;
+}
+
+.header_nav{
+    z-index:1;
+    position:relative;
+    width:100%;
+    height:100%;
+}
+
+.header_item{
+    position:relative;
+    display:block;
+    height:100%;
+    font-size:unit((12/@baseFont),rem);
+    cursor:pointer;
+
+    &.left{
+        float:left;
+    }
+    &.right{
+        float:right;
+    }
+
+    a{
+        color:#888;
+        text-decoration:none;
+        display:block;
+        height:100%;
+        line-height:unit((30/@baseFont),rem);
+        padding:0 unit((20/@baseFont),rem);
+        box-sizing:border-box;
+
+        i{
+            margin:0 unit((4/@baseFont),rem);
+        }
+
+        &:hover{
+            color:#4e6ef2;
+        }
+        &.myself{
+        background: #fff;
+        box-shadow:0 unit((5/@baseFont),rem) 0 0 #fff,unit((2/@baseFont),rem) 0 unit((5/@baseFont),rem) 0 #ccc,unit((-2/@baseFont),rem) 0 unit((5/@baseFont),rem) 0 #ccc; /*设置边框阴影*/
+        }
+    }
+}
+
+.more_info{
+    z-index:-1;
+    position:absolute;
+    left:0;
+    top:unit((40/@baseFont),rem);
+    width:160%;
+    background:#fff;
+    margin-top:unit((-10/@baseFont),rem);
+    padding-bottom:unit((10/@baseFont),rem);
+    box-sizing:border-box;
+    box-shadow:0 0 unit((5/@baseFont),rem) unit((1/@baseFont),rem) #ccc;/*边框阴影*/
+
+    :hover{
+        color:#888;
+    }
+    div{
+        padding:0 unit((30/@baseFont),rem);
+        box-sizing:border-box;
+
+        span:hover{
+            color:blueviolet;
+            text-decoration:underline;
+        }
+    }
+    p{
+        display:block;
+        height:unit((26/@baseFont),rem);
+        text-align:center;
+        line-height:unit((26/@baseFont),rem);
+        overflow:hidden;
+
+        &:hover{
+            color:#4e6ef2;
+        }
+    }
+
+    .left{
+        float:left;
+    }
+    .right{
+        display:block;
+        line-height:unit((30/@baseFont),rem);
+        float:right;
+        color:#888;
+    }
+    .headImg{
+        height:unit((50/@baseFont),rem);
+        padding-top:unit((10/@baseFont),rem);
+        box-sizing:border-box;
+        line-height:unit((40/@baseFont),rem);
+        overflow:hidden;
+        font-size:unit((16/@baseFont),rem);
+        color:#444;
+
+        img{
+            display:block;
+            float:left;
+            width:unit((40/@baseFont),rem);
+            height:unit((40/@baseFont),rem);
+            border-radius:50%;
+        }
+    }
+}
